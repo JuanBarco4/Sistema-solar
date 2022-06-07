@@ -223,36 +223,45 @@
 
 .mercurio {
     width: 4rem;
+    height: 4rem;
 }
 
 .venus {
     width: 5rem;
+    height: 5rem;
 }
 
 .tierra {
     width: 7rem;
+    height: 7rem;
 }
 
 .marte {
     width: 5rem;
+    height: 5rem;
 }
 
 .jupiter {
     width: 16rem;
+    height: 16rem;
 }
 
 .saturno {
     width: 10rem;
+    height: 10rem;
 }
 
 .urano {
     width: 8rem;
+    height: 8rem;
 }
 
 .neptuno {
     width: 7rem;
+    height: 7rem;
 }
 
 .pluton {
     width: 3.5rem;
+    height: 3.5rem;
 }
