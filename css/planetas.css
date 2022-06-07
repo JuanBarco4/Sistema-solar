@@ -1,0 +1,258 @@
+.contenedor {
+    width: 100%;
+    height: 51.1rem;
+}
+
+.universo {
+    width: 100%;
+    height: 100%;
+    background-color: #172126;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0rem 2rem;
+}
+
+.padre {
+    width: 30rem;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.padre:hover .hijo{
+    transition: 1s;
+    display: block;
+    position: absolute;
+    margin: 0;
+    margin-top: 38rem;
+}
+
+.hijo{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    color: #fff;
+    text-align: center;
+    background-color: #33454eab;
+    width: 25rem;
+    height: 9rem;
+    display: none;
+}
+
+.hijo h2{
+    font-size: 3rem;
+    padding: 1rem 0rem 1rem 0rem;
+}
+
+.hijo span{
+    font-size: 1.2rem;
+}
+
+.padre2 {
+    width: 4rem;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.padre2:hover .hijo2{
+    transition: 1s;
+    display: block;
+    position: absolute;
+    margin: 0;
+    margin-top: 17rem;
+}
+
+.hijo2{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    color: #fff;
+    text-align: center;
+    background-color: #33454eab;
+    width: 15rem;
+    height: 8rem;
+    display: none;
+}
+
+.hijo2 h2{
+    font-size: 2rem;
+    padding: 1rem 0rem 1rem 0rem;
+}
+
+.hijo2 span{
+    font-size: 1.1rem;
+}
+
+.padre3 {
+    width: 16rem;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.padre3:hover .hijo3{
+    transition: 1s;
+    display: block;
+    position: absolute;
+    margin: 0;
+    margin-top: 28rem;
+}
+
+.hijo3{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    color: #fff;
+    text-align: center;
+    background-color: #33454eab;
+    width: 15rem;
+    height: 8rem;
+    display: none;
+}
+
+.hijo3 h2{
+    font-size: 2rem;
+    padding: 1rem 0rem 1rem 0rem;
+}
+
+.hijo3 span{
+    font-size: 1.1rem;
+}
+
+.padre4 {
+    width: 8rem;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.padre4:hover .hijo4{
+    transition: 1s;
+    display: block;
+    position: absolute;
+    margin: 0;
+    margin-top: 20rem;
+}
+
+.hijo4{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    color: #fff;
+    text-align: center;
+    background-color: #33454eab;
+    width: 15rem;
+    height: 8rem;
+    display: none;
+}
+
+.hijo4 h2{
+    font-size: 2rem;
+    padding: 1rem 0rem 1rem 0rem;
+}
+
+.hijo4 span{
+    font-size: 1.1rem;
+}
+
+.padre5 {
+    width: 3.5rem;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.padre5:hover .hijo5{
+    transition: 1s;
+    display: block;
+    position: absolute;
+    margin: 0;
+    margin-top: 16rem;
+    margin-right: 6rem;
+}
+
+.hijo5{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    color: #fff;
+    text-align: center;
+    background-color: #33454eab;
+    width: 15rem;
+    height: 8rem;
+    display: none;
+}
+
+.hijo5 h2{
+    font-size: 2rem;
+    padding: 1rem 0rem 1rem 0rem;
+}
+
+.hijo5 span{
+    font-size: 1.1rem;
+}
+
+.sol {
+    width: 30rem;
+    cursor: pointer;
+}
+
+.mercurio {
+    width: 4rem;
+}
+
+.venus {
+    width: 5rem;
+}
+
+.tierra {
+    width: 7rem;
+}
+
+.marte {
+    width: 5rem;
+}
+
+.jupiter {
+    width: 16rem;
+}
+
+.saturno {
+    width: 10rem;
+}
+
+.urano {
+    width: 8rem;
+}
+
+.neptuno {
+    width: 7rem;
+}
+
+.pluton {
+    width: 3.5rem;
+}
